@@ -14,7 +14,8 @@ public class HelloWorld {
         for(int j = 0; j <= 3;j++){
             System.out.printf("this is J: %d %s \n",j, name);
         }
-        try {
+        try
+        {
             int myNumber = 10 / 0;
         }
         catch(Exception e)
@@ -26,5 +27,6 @@ public class HelloWorld {
         }
         throw new RuntimeException("exp test");
     }
+    //CHANGE
 }
 
